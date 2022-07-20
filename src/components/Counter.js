@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
 function Counter() {
+  // if (props.shouldHaveCount) {
+  //   // This is wrong -- never call a hook inside a condition
+  //   const [count, setCount] = useState(0);
+
+  //   // return ...
+  // }
+  // // return ...
   const [count, setCount] = useState(0);
 
   function increment() {
